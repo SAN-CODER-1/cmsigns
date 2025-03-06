@@ -1,0 +1,142 @@
+.about-container {
+  
+display: flex;
+
+  }
+  .about-container img {
+    height: 400px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 100px;
+      }
+  
+  .about-content {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+   
+  }
+  .about-content p {
+    display: flex;
+    max-width: 300px;
+    font-size: 30px;
+
+   
+  }
+  
+  .about-container h2 {
+    display:flex;
+    margin-top: 0px;
+    margin-left: 10px;
+    position: absolute;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    width: 400px;
+    
+  }
+  
+  .about-container p {
+    margin-top: 70px;
+    font-size: 25px;
+    color: #444;
+    height: 300px;
+    width: 500px;
+
+  }
+  
+  .about-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .feature-box {
+    width: 30%;
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-container h3 {
+    font-size: 20px;
+    color: #444;
+  }
+  
+  .contact-button a{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: "Lexend Zetta", serif;
+    font-optical-sizing: auto;
+    font-weight: 1px;
+    font-style: normal;
+    margin:1px;
+    text-decoration: none;
+  }
+  .contact-button{
+    margin-top: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+git pull 
+  @media (max-width:400px) {
+    .about-container h2 {
+      display:flex;
+      margin-top: 0px;
+      margin-left: 10px;
+      position: absolute;
+      font-family: "Marcellus", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 50px;
+      width: 400px;
+      
+    }
+    .about-container img {
+      height: 300px;
+      width: 200px;
+      margin-top: 100px;
+      margin-left: 10px;
+        }
+        .about-container p {
+          margin-top: 70px;
+          font-size: 20px;
+          color: #444;
+          height: 250px;
+          width: 100px;
+          overflow: hidden;
+        }
+        .contact-button a{
+          display: flex;
+          padding: 2px 1px 1px 5px;
+          color: aliceblue;
+          background-color: black;
+          border-radius: 10px;
+          font-size: 10px;
+          font-family: "Lexend Zetta", serif;
+          font-optical-sizing: auto;
+          font-weight: 1px;
+          font-style: normal;
+          margin:1px;
+        }
+        .contact-button{
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          cursor: pointer;
+        }
+      
+  }
+  

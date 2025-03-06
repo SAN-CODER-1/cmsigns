@@ -1,0 +1,188 @@
+*{
+  zoom: 1;
+}
+body{
+  overflow-x: hidden;
+}
+.Hero{
+ display: flex;
+ flex-wrap: wrap;
+ margin-top: 10px;
+}
+.before{
+
+  background: #7F1DFF;
+  background: linear-gradient(to right, #511f92 0%, #bd4fb2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    height: 300px;
+    width: 300px;
+    background-clip: text; /* Added for better browser support */
+
+}
+.Hero h1{
+  display: flex;
+  color: rgb(69, 38, 67);
+  margin-left: 100px;
+margin-top: 100px;
+  height: 300px;
+  width: 400px;
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.Hero-cont-desktop{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 90px;
+  font-size: 35px;
+  text-align: center;   
+ }
+
+.scratch-cont-desktop{
+  display: flex;
+  margin-left: 180px;
+  height: 600px;
+  width: 300px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.scratch-cont-android{
+  display: none;
+}
+.herobutton1 button{
+  display: flex;
+  padding: 9px 17px 9px 17px;
+  color: aliceblue;
+  background-color: black;
+  border-radius: 30px;
+  font-size: 15x;
+  font-family: "Lexend Zetta", serif;
+  font-optical-sizing: auto;
+  font-weight: 1px;
+  font-style: normal;
+  cursor: pointer;
+}
+.herobutton1{
+  position: absolute;
+  display: flex;
+  margin-left: 200px;
+  margin-top: 440px;
+  cursor: pointer;
+}
+.herobutton2 button{
+  display: flex;
+  padding: 9px 17px 9px 17px;
+  color: aliceblue;
+  background-color: black;
+  border-radius: 30px;
+  font-size: 15x;
+  font-family: "Lexend Zetta", serif;
+  font-optical-sizing: auto;
+  font-weight: 1px;
+  font-style: normal;
+  cursor: pointer;
+}
+.herobutton2{
+  position: absolute;
+  display: flex;
+  margin-left: 400px;
+  margin-top: 440px;
+  cursor: pointer;
+}
+@media (max-width:400px) {
+  body{
+    overflow-x: hidden;
+  }
+  .Hero{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 10px;
+   }
+   .Hero h1{
+    display: flex;
+    margin-top: 100px;
+    margin-left:0px ;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;       
+  }
+  .before{
+
+    background: #7F1DFF;
+    background: linear-gradient(to right, #511f92 0%, #bd4fb2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      height: 300px;
+      width: 300px;
+      background-clip: text; /* Added for better browser support */
+  
+  }
+  .Hero-cont-desktop{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-top: 320px;
+    height: 200px;
+    text-align: center;
+   }
+   .Hero-cont-desktop h1{
+    height: 200px;
+    width: 300px;
+    margin-left:50px ;
+   }
+   .scratch-cont-desktop{
+    display: none;
+   }
+   .scratch-cont-android{
+    display: flex;
+    position: absolute;
+    margin-left: 80px;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .herobutton1 button{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 30px;
+    font-size: 10px;
+    font-family: "Lexend Zetta", serif;
+    font-optical-sizing: auto;
+    font-weight: 1px;
+    font-style: normal;
+    margin: none;
+
+  }
+  .herobutton2 button{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 30px;
+    font-size: 10px;
+    font-family: "Lexend Zetta", serif;
+    font-optical-sizing: auto;
+    font-weight: 1px;
+    font-style: normal;
+    margin: none;
+
+  }
+  .herobutton1{
+    position: absolute;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 680px;
+  }
+  .herobutton2{
+    position: absolute;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 680px;
+  }
+  
+}

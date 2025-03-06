@@ -1,0 +1,233 @@
+.workbutton1 button{
+    display: flex;
+    padding: 12px 40px 12px 40px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 30px;
+    font-size: 15x;
+    font-family: "Lexend Zetta", serif;
+    font-optical-sizing: auto;
+    font-weight: 1px;
+    font-style: normal;
+    cursor: pointer;
+  }
+  .workbutton1{
+    position: absolute;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 500px;;
+    cursor: pointer;
+  }
+  .workbutton2 button{
+    display: flex;
+    padding: 12px 40px 12px 40px;
+    color:black;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 15x;
+    font-family: "Lexend Zetta", serif;
+    font-optical-sizing: auto;
+    font-weight: 1px;
+    font-style: normal;
+    cursor: pointer;
+    border:solid 1px
+  }
+  .workbutton2{
+    position: absolute;
+    display: flex;
+    margin-left: 250px;
+    margin-top: 505px;
+    cursor: pointer;
+  }
+  .vedio {
+    margin-top: 150px;
+    margin-left: 100px;
+  }
+  .work h1{
+    display:flex;
+    position: absolute;
+    margin-top: 110px;
+    position: absolute;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+.workcontainer{
+  display: flex;
+  margin-left: 0px;
+  margin-top: 80px;
+}
+.work{
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: 500px;
+  margin-bottom: 100px;
+
+}
+.slide {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 500px;
+height: 1000px;
+margin-top: 0px;
+}
+.slide img{
+  display: flex;
+    height:300px;
+    width:250px;
+    margin-top: 170px;
+    margin-left: 200px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.slide p{
+  display: flex;
+  flex-direction: row;
+    margin-left: 100px;
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    justify-content: center;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: opacity 0.5s ease-in-out;
+}
+.slide button{
+  display: flex;
+  padding: 12px 40px 12px 40px;
+  color:rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border-radius: 30px;
+  margin-left: 250px;
+  font-size: 15x;
+  font-family: "Lexend Zetta", serif;
+  font-optical-sizing: auto;
+  font-weight: 1px;
+  font-style: normal;
+  cursor: pointer;
+  border:solid 1px
+
+
+}
+.slide h1{
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: 40px;
+    width: 600px;
+    height: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    
+}
+
+@keyframes moveFarmer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@media (max-width:400px) {
+  .work{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    width:400px;
+    height: 1000px;
+    margin-bottom: 100px;
+  
+  }
+  .vedio {
+    margin-top: 150px;
+    margin-left: 40px;
+    height: 200px;
+    width: 300px;
+  }  .work h1{
+    display:flex;
+    margin-left: 10px;
+    margin-top: 150px;
+    position: absolute;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}.slide {
+display: flex;
+position: absolute;
+flex-direction: column;
+flex-wrap: wrap;
+width: 300px;
+margin-left: 0px;
+margin-top: 350px;
+}
+.slide img{
+  display: flex;
+    height:300px;
+    width:250px;
+    margin-top: 170px;
+    margin-left: 70px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.slide p{
+  display: flex;
+  flex-direction: row;
+    margin-left: 40px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: opacity 0.5s ease-in-out;
+}
+.slide button{
+  display: flex;
+  padding: 12px 40px 12px 40px;
+  color:rgb(255, 255, 255);
+  margin-left: 100px;
+  margin-top: 40px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 30px;
+  font-size: 15x;
+  font-family: "Lexend Zetta", serif;
+  font-optical-sizing: auto;
+  font-weight: 1px;
+  font-style: normal;
+  cursor: pointer;
+  border:solid 1px
+
+
+}
+.slide h1{
+    margin-left: 10px;
+    margin-top: 60px;
+    font-size: 30px;
+    width: 350px;
+    height: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+.workbutton2{
+    position: absolute;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 350px;
+    cursor: pointer;
+  }
+}
